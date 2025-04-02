@@ -89,7 +89,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 ```json
 {
   "timeZone": "en-US",
-  "skipInvalidProxy": false,
+  "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
@@ -102,7 +102,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 - **Fields Explained:**
   - `timeZone`: Time zone setting (e.g., "en-US").
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
