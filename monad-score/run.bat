@@ -1,5 +1,5 @@
 @echo off
-title name Bot by @MeoMunDep
+title Monad Score Bot by @MeoMunDep
 color 0A
 
 cd %~dp0
