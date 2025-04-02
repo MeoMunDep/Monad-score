@@ -105,6 +105,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
+  - `doReferrals`: Enable referrals feature.
   - `referralCodes`: Add your referral code (optional). Do not change it if you want to support me ^^.
 
 ### 2. `privateKeys.txt` - 🗂️ User's Wallet Data
