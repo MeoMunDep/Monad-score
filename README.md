@@ -165,7 +165,7 @@ _Note: each row for each account._
 ## Contact and Support
 
 - **Help me with your referral** [Referral Link](https://monadscore.xyz/signup/r/DAuzQaAF)
-- **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
+- **Buy me milk** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
 If you encounter any issues or have questions, feel free to reach out:
 
