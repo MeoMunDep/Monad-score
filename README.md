@@ -173,7 +173,7 @@ _Note: each row for each account._
 
 If you encounter any issues or have questions, feel free to reach out:
 
-- **Contact:** [Contact Me](https://t.me/MeoMunDep)
+- **Only DM for work:** [ONLY FOR WORK](https://t.me/MeoMunDep)
 - **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
 - **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
 
