@@ -50,8 +50,6 @@ You can clone the bot repository using Git. If you don't have Git installed, [in
   git clone https://github.com/MeoMunDep/monad-score.git
   ```
 
-  - Replace `https://github.com/MeoMunDep/monad-score.git` with the actual repository URL if different.
-
 - After cloning, navigate into the bot's directory:
 
   ```bash
