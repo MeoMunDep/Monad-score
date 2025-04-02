@@ -94,7 +94,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
   "doTasks": true,
-  "referralCodes": ["DAuzQaAF"]
+  "referralCodes": ["DAuzQaAF", "lZWOT50M", "xvtQz8EA", "b3xk8tci"]
 }
 ```
 
