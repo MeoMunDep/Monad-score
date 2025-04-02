@@ -1,7 +1,3 @@
-Here's the updated setup guide with instructions on using `git clone` to download the bot files:
-
----
-
 # 🚀 Bot Setup Instructions
 
 Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
