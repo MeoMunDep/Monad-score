@@ -3,10 +3,9 @@
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
-NC='\033[0m' 
+NC='\033[0m'
 
 echo -ne "\033]0;Monad Score Bot by @MeoMunDep\007"
-
 
 print_green() {
     echo -e "${GREEN}$1${NC}"
@@ -20,7 +19,43 @@ print_red() {
     echo -e "${RED}$1${NC}"
 }
 
+check_node() {
+    if ! command -v node &> /dev/null; then
+        print_red "Node.js not found, installing..."
+        if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+            sudo apt update && sudo apt install -y nodejs npm
+        elif [[ "$OSTYPE" == "darwin"* ]]; then
+            brew install node
+        elif [[ "$OSTYPE" == "cygwin" || "$OSTYPE" == "msys" ]]; then
+            echo "Please install Node.js manually on Windows."
+        fi
+        print_green "Node.js installation completed."
+    else
+        print_green "Node.js is already installed."
+    fi
+}
+
+check_git() {
+    if ! command -v git &> /dev/null; then
+        print_red "Git not found, installing..."
+        if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+            sudo apt update && sudo apt install -y git
+        elif [[ "$OSTYPE" == "darwin"* ]]; then
+            brew install git
+        elif [[ "$OSTYPE" == "cygwin" || "$OSTYPE" == "msys" ]]; then
+            echo "Please install Git manually on Windows."
+        fi
+        print_green "Git installation completed."
+    else
+        print_green "Git is already installed."
+    fi
+}
+
 chmod +x "$0"
+
+print_yellow "Checking for git and Node.js installations..."
+check_git
+check_node
 
 if [ -d "../node_modules" ]; then
     print_green "Found node_modules in parent directory"
